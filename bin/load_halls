@@ -5,7 +5,7 @@ use v5.40;
 use Text::CSV_XS;
 use LiveryCompanies::Schema;
 
-my $csv_file = 'data/livery.csv';
+my $csv_file = 'data/livery-halls.csv';
 my $db_file  = 'db/livery.db';
 
 my $schema = LiveryCompanies::Schema->connect(
