@@ -1,0 +1,64 @@
+#!/usr/bin/env perl
+
+use v5.40;
+
+use JSON::MaybeXS;
+use LiveryCompanies::Schema;
+
+my $db_file     = 'db/livery.db';
+my $output_file = 'docs/halls.geojson';
+
+my $schema = LiveryCompanies::Schema->connect(
+  "dbi:SQLite:dbname=$db_file",
+  '',
+  '',
+  {
+    sqlite_unicode => 1,
+    quote_names    => 1,
+    RaiseError     => 1,
+    PrintError     => 0,
+    AutoCommit     => 1,
+  },
+);
+
+my @features;
+
+my $halls = $schema->resultset('LiveryHall')->search(
+  {},
+  { order_by => 'slug' },
+);
+
+while (my $hall = $halls->next) {
+  push @features, {
+    type       => 'Feature',
+    properties => {
+      name    => $hall->hall_name,
+      company => $hall->company_name,
+      slug    => $hall->slug,
+    },
+    geometry => {
+      type        => 'Point',
+      coordinates => [
+        $hall->longitude + 0,
+        $hall->latitude  + 0,
+      ],
+    },
+  };
+}
+
+my $geojson = {
+  type     => 'FeatureCollection',
+  features => \@features,
+};
+
+my $json = JSON::MaybeXS
+  ->new(utf8 => 1, pretty => 1, canonical => 0)
+  ->encode($geojson);
+
+open my $out, '>:raw', $output_file
+  or die "Cannot write $output_file: $!";
+
+print {$out} $json;
+close $out;
+
+say "Wrote $output_file";

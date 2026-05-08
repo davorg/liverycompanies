@@ -1,0 +1,53 @@
+#!/usr/bin/env perl
+
+use v5.40;
+
+use Text::CSV_XS;
+use LiveryCompanies::Schema;
+
+my $csv_file = 'data/livery.csv';
+my $db_file  = 'db/livery.db';
+
+my $schema = LiveryCompanies::Schema->connect(
+  "dbi:SQLite:dbname=$db_file",
+  '',
+  '',
+  {
+    sqlite_unicode => 1,
+    quote_names    => 1,
+    RaiseError     => 1,
+    PrintError     => 0,
+    AutoCommit     => 1,
+  },
+);
+
+my $csv = Text::CSV_XS->new({
+  binary      => 1,
+  auto_diag   => 1,
+});
+
+open my $fh, '<:encoding(UTF-8)', $csv_file
+  or die "Cannot open $csv_file: $!";
+
+my $headers = $csv->getline($fh);
+$csv->column_names(@$headers);
+
+$schema->txn_do(sub {
+  my $halls = $schema->resultset('LiveryHall');
+
+  $halls->delete;
+
+  while (my $row = $csv->getline_hr($fh)) {
+    $halls->create({
+      slug         => $row->{slug},
+      hall_name    => $row->{hall_name},
+      company_name => $row->{company_name},
+      longitude    => $row->{longitude},
+      latitude     => $row->{latitude},
+    });
+  }
+});
+
+close $fh;
+
+say "Loaded $csv_file into $db_file";
