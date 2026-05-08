@@ -52,7 +52,7 @@ my $geojson = {
 };
 
 my $json = JSON::MaybeXS
-  ->new(utf8 => 1, pretty => 1, canonical => 0)
+  ->new(utf8 => 1, pretty => 1, canonical => 1)
   ->encode($geojson);
 
 open my $out, '>:raw', $output_file

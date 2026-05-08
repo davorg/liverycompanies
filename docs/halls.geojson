@@ -1,281 +1,350 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Apothecaries' Hall",
-        "company": "The Society of Apothecaries",
-        "slug": "apothecaries"
+   "features" : [
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.1018,
+               51.5125
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Society of Apothecaries",
+            "name" : "Apothecaries' Hall",
+            "slug" : "apothecaries"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.1018, 51.5125]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Armourers' Hall",
-        "company": "The Armourers and Brasiers' Company",
-        "slug": "armourers-and-brasiers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0889,
+               51.5158
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Armourers and Brasiers' Company",
+            "name" : "Armourers' Hall",
+            "slug" : "armourers-and-brasiers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0889, 51.5158]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Barber-Surgeons' Hall",
-        "company": "The Barbers' Company",
-        "slug": "barbers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0964,
+               51.5171
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Barbers' Company",
+            "name" : "Barber-Surgeons' Hall",
+            "slug" : "barbers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0964, 51.5171]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Brewers' Hall",
-        "company": "The Brewers' Company",
-        "slug": "brewers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0951,
+               51.5154
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Brewers' Company",
+            "name" : "Brewers' Hall",
+            "slug" : "brewers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0951, 51.5154]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Butchers' Hall",
-        "company": "The Butchers' Company",
-        "slug": "butchers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.1005,
+               51.519
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Butchers' Company",
+            "name" : "Butchers' Hall",
+            "slug" : "butchers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.1005, 51.5190]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Carpenters' Hall",
-        "company": "The Carpenters' Company",
-        "slug": "carpenters"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0866,
+               51.5172
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Carpenters' Company",
+            "name" : "Carpenters' Hall",
+            "slug" : "carpenters"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0866, 51.5172]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Clothworkers' Hall",
-        "company": "The Clothworkers' Company",
-        "slug": "clothworkers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0846,
+               51.5148
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Clothworkers' Company",
+            "name" : "Clothworkers' Hall",
+            "slug" : "clothworkers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0846, 51.5148]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Coopers' Hall",
-        "company": "The Coopers' Company",
-        "slug": "coopers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0798,
+               51.5128
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Coopers' Company",
+            "name" : "Coopers' Hall",
+            "slug" : "coopers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0798, 51.5128]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Drapers' Hall",
-        "company": "The Drapers' Company",
-        "slug": "drapers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0879,
+               51.5155
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Drapers' Company",
+            "name" : "Drapers' Hall",
+            "slug" : "drapers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0879, 51.5155]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fishmongers' Hall",
-        "company": "The Fishmongers' Company",
-        "slug": "fishmongers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0863,
+               51.5096
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Fishmongers' Company",
+            "name" : "Fishmongers' Hall",
+            "slug" : "fishmongers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0863, 51.5096]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Goldsmiths' Hall",
-        "company": "The Goldsmiths' Company",
-        "slug": "goldsmiths"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0959,
+               51.5156
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Goldsmiths' Company",
+            "name" : "Goldsmiths' Hall",
+            "slug" : "goldsmiths"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0959, 51.5156]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Haberdashers' Hall",
-        "company": "The Haberdashers' Company",
-        "slug": "haberdashers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.1016,
+               51.5192
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Haberdashers' Company",
+            "name" : "Haberdashers' Hall",
+            "slug" : "haberdashers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.1016, 51.5192]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ironmongers' Hall",
-        "company": "The Ironmongers' Company",
-        "slug": "ironmongers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0962,
+               51.5167
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Ironmongers' Company",
+            "name" : "Ironmongers' Hall",
+            "slug" : "ironmongers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0962, 51.5167]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Leathersellers' Hall",
-        "company": "The Leathersellers' Company",
-        "slug": "leathersellers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0796,
+               51.5156
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Leathersellers' Company",
+            "name" : "Leathersellers' Hall",
+            "slug" : "leathersellers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0796, 51.5156]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Merchant Taylors' Hall",
-        "company": "The Merchant Taylors' Company",
-        "slug": "merchant-taylors"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0858,
+               51.5147
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Merchant Taylors' Company",
+            "name" : "Merchant Taylors' Hall",
+            "slug" : "merchant-taylors"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0858, 51.5147]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Painters' Hall",
-        "company": "The Painter-Stainers' Company",
-        "slug": "painter-stainers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0965,
+               51.5136
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Painter-Stainers' Company",
+            "name" : "Painters' Hall",
+            "slug" : "painter-stainers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0965, 51.5136]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Plaisterers' Hall",
-        "company": "The Plaisterers' Company",
-        "slug": "plaisterers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0959,
+               51.5182
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Plaisterers' Company",
+            "name" : "Plaisterers' Hall",
+            "slug" : "plaisterers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0959, 51.5182]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Saddlers' Hall",
-        "company": "The Saddlers' Company",
-        "slug": "saddlers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0967,
+               51.5149
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Saddlers' Company",
+            "name" : "Saddlers' Hall",
+            "slug" : "saddlers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0967, 51.5149]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Skinners' Hall",
-        "company": "The Skinners' Company",
-        "slug": "skinners"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0837,
+               51.5116
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Skinners' Company",
+            "name" : "Skinners' Hall",
+            "slug" : "skinners"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0837, 51.5116]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Stationers' Hall",
-        "company": "The Stationers' Company",
-        "slug": "stationers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.101,
+               51.5143
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Stationers' Company",
+            "name" : "Stationers' Hall",
+            "slug" : "stationers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.1010, 51.5143]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Tallow Chandlers' Hall",
-        "company": "The Tallow Chandlers' Company",
-        "slug": "tallow-chandlers"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0817,
+               51.5117
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Tallow Chandlers' Company",
+            "name" : "Tallow Chandlers' Hall",
+            "slug" : "tallow-chandlers"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0817, 51.5117]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Vintners' Hall",
-        "company": "The Vintners' Company",
-        "slug": "vintners"
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0923,
+               51.5105
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Vintners' Company",
+            "name" : "Vintners' Hall",
+            "slug" : "vintners"
+         },
+         "type" : "Feature"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0923, 51.5105]
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.0954,
+               51.5158
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "company" : "The Wax Chandlers' Company",
+            "name" : "Wax Chandlers' Hall",
+            "slug" : "wax-chandlers"
+         },
+         "type" : "Feature"
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Wax Chandlers' Hall",
-        "company": "The Wax Chandlers' Company",
-        "slug": "wax-chandlers"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.0954, 51.5158]
-      }
-    }
-  ]
+   ],
+   "type" : "FeatureCollection"
 }
