@@ -34,6 +34,7 @@ while (my $hall = $halls->next) {
     properties => {
       name    => $hall->hall_name,
       company => $hall->company_name,
+      address => $hall->address,
       slug    => $hall->slug,
     },
     geometry => {

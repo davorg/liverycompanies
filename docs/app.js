@@ -37,11 +37,12 @@ fetch("halls.geojson")
       },
 
       onEachFeature: (feature, layer) => {
-        const { name, company, slug } = feature.properties;
+        const { name, company, address, slug } = feature.properties;
 
         layer.bindPopup(`
           <h2>${name}</h2>
           <p>${company}</p>
+          <p><i>${address}</i></p>
         `);
       }
     }).addTo(map);

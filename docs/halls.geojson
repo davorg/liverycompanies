@@ -9,6 +9,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Black Friars Lane, London EC4V 6ER",
             "company" : "The Society of Apothecaries",
             "name" : "Apothecaries' Hall",
             "slug" : "apothecaries"
@@ -24,6 +25,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "81 Coleman St, London EC2R 5BJ",
             "company" : "The Armourers and Brasiers' Company",
             "name" : "Armourers' Hall",
             "slug" : "armourers"
@@ -39,6 +41,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "7 Harp Ln, London EC3R 6DP",
             "company" : "The Bakers' Company",
             "name" : "Bakers' Hall",
             "slug" : "bakers"
@@ -54,6 +57,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Monkwell Square, Wood St, Barbican, London EC2Y 5BL",
             "company" : "The Barbers' Company",
             "name" : "Barber-Surgeons' Hall",
             "slug" : "barber-surgeons"
@@ -69,6 +73,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Aldermanbury Square, Barbican, London EC2V 7HR",
             "company" : "The Brewers' Company",
             "name" : "Brewers' Hall",
             "slug" : "brewers"
@@ -84,6 +89,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "87 Bartholomew Close, London EC1A 7EB",
             "company" : "The Butchers' Company",
             "name" : "Butchers' Hall",
             "slug" : "butchers"
@@ -99,6 +105,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "1 Throgmorton Avenue, London EC2N 2JJ",
             "company" : "The Carpenters' Company",
             "name" : "Carpenters' Hall",
             "slug" : "carpenters"
@@ -114,6 +121,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "1 Moorgate Pl, London EC2R 6EA",
             "company" : "The Institute of Chartered Accountants in England and Wales",
             "name" : "Chartered Accountants' Hall",
             "slug" : "chartered-accountants"
@@ -129,6 +137,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Dunster Court, Mincing Lane, London EC3R 7AH",
             "company" : "The Clothworkers' Company",
             "name" : "Clothworkers' Hall",
             "slug" : "clothworkers"
@@ -144,6 +153,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "13 Devonshire Square, London EC2M 4TH",
             "company" : "The Coopers' Company",
             "name" : "Coopers' Hall",
             "slug" : "coopers"
@@ -159,6 +169,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "4 Warwick Lane, London EC4M 7BR",
             "company" : "The Cutlers' Company",
             "name" : "Cutlers' Hall",
             "slug" : "cutlers"
@@ -174,6 +185,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Throgmorton Avenue, London EC2N 2DQ",
             "company" : "The Drapers' Company",
             "name" : "Drapers' Hall",
             "slug" : "drapers"
@@ -189,6 +201,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "10 Dowgate Hill, London EC4R 2ST",
             "company" : "The Dyers' Company",
             "name" : "Dyers' Hall",
             "slug" : "dyers"
@@ -204,6 +217,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "3 Cloth St, London EC1A 7LD",
             "company" : "The Farmers' Company and The Fletchers' Company",
             "name" : "Farmers & Fletchers' Hall",
             "slug" : "farmers-and-fletchers"
@@ -219,6 +233,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "110 London Bridge, London EC4R 3TJ",
             "company" : "The Fishmongers' Company",
             "name" : "Fishmongers' Hall",
             "slug" : "fishmongers"
@@ -234,6 +249,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "1 Cloth Fair, London EC1A 7JQ",
             "company" : "The Founders' Company",
             "name" : "Founders' Hall",
             "slug" : "founders"
@@ -249,6 +265,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "12 Austin Friars, London EC2N 2HE",
             "company" : "The Furniture Makers' Company",
             "name" : "Furniture Makers' Hall",
             "slug" : "furniture-makers"
@@ -264,6 +281,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Basinghall Ave, London EC2V 5DD",
             "company" : "The Girdlers' Company",
             "name" : "Girdlers' Hall",
             "slug" : "girdlers"
@@ -279,6 +297,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "9 Montague Cl, London SE1 9DD",
             "company" : "The Glaziers' Company",
             "name" : "Glaziers' Hall",
             "slug" : "glaziers"
@@ -294,6 +313,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Foster Lane, London EC2V 6BN",
             "company" : "The Goldsmiths' Company",
             "name" : "Goldsmiths' Hall",
             "slug" : "goldsmiths"
@@ -309,6 +329,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Princes Street, London EC2R 8AD",
             "company" : "The Grocers' Company",
             "name" : "Grocers' Hall",
             "slug" : "grocers"
@@ -324,6 +345,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Gresham Street, London EC2V 7HH",
             "company" : "City of London Corporation",
             "name" : "Guildhall",
             "slug" : "guildhall"
@@ -339,6 +361,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "46–50 Commercial Road, London E1 1LP",
             "company" : "The Gunmakers' Company",
             "name" : "Gunmakers' Hall",
             "slug" : "gunmakers"
@@ -354,6 +377,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "18 West Smithfield, London EC1A 9HQ",
             "company" : "The Haberdashers' Company",
             "name" : "Haberdashers' Hall",
             "slug" : "haberdashers"
@@ -369,6 +393,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Temple Stairs, Victoria Embankment, London WC2R 2PN",
             "company" : "The Honourable Company of Master Mariners",
             "name" : "HQS Wellington",
             "slug" : "hqs-wellington"
@@ -384,6 +409,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "39A Bartholomew Close, Barbican, London EC1A 7JN",
             "company" : "The Information Technologists' Company",
             "name" : "Information Technologists' Hall",
             "slug" : "information-technologists"
@@ -399,6 +425,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "30 College St, London EC4R 2RH",
             "company" : "The Innholders' Company",
             "name" : "Innholders' Hall",
             "slug" : "innholders"
@@ -414,6 +441,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Shaftesbury Place, off Aldersgate Street, Barbican, London EC2Y 8AA",
             "company" : "The Ironmongers' Company",
             "name" : "Ironmongers' Hall",
             "slug" : "ironmongers"
@@ -429,6 +457,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "7 St Helen's Place, London EC3A 6AB",
             "company" : "The Leathersellers' Company",
             "name" : "Leathersellers' Hall",
             "slug" : "leathersellers"
@@ -444,6 +473,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Ironmonger Lane, London EC2V 8HE",
             "company" : "The Mercers' Company",
             "name" : "Mercers' Hall",
             "slug" : "mercers"
@@ -459,6 +489,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "",
             "company" : "The Merchant Taylors' Company",
             "name" : "Merchant Taylors' Hall",
             "slug" : "merchant-taylors"
@@ -474,6 +505,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "9 Little Trinity Lane, London EC4V 2AD",
             "company" : "The Painter-Stainers' Company",
             "name" : "Painters' Hall",
             "slug" : "painter-stainers"
@@ -489,6 +521,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Oat Lane, Barbican, London EC2V 7DE",
             "company" : "The Pewterers' Company",
             "name" : "Pewterers' Hall",
             "slug" : "pewterers"
@@ -504,6 +537,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "One London Wall, London EC2Y 5JU",
             "company" : "The Plaisterers' Company",
             "name" : "Plaisterers' Hall",
             "slug" : "plaisterers"
@@ -519,6 +553,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "40 Gutter Lane, London EC2V 6BR",
             "company" : "The Saddlers' Company",
             "name" : "Saddlers' Hall",
             "slug" : "saddlers"
@@ -534,6 +569,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "4 London Wall Place, London EC2Y 5DE",
             "company" : "The Salters' Company",
             "name" : "Salters' Hall",
             "slug" : "salters"
@@ -549,6 +585,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "8½ Dowgate Hill, London EC4R 2SP",
             "company" : "The Skinners' Company",
             "name" : "Skinners' Hall",
             "slug" : "skinners"
@@ -564,6 +601,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "Ave Maria Lane, London EC4M 7DD",
             "company" : "The Stationers' Company",
             "name" : "Stationers' Hall",
             "slug" : "stationers"
@@ -579,6 +617,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "4 Dowgate Hill, London EC4R 2SH",
             "company" : "The Tallow Chandlers' Company",
             "name" : "Tallow Chandlers' Hall",
             "slug" : "tallow-chandlers"
@@ -594,6 +633,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "68 Upper Thames Street, London EC4V 3BG",
             "company" : "The Vintners' Company",
             "name" : "Vintners' Hall",
             "slug" : "vintners"
@@ -609,6 +649,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "16-18 St Mary at Hill, London EC3R 8EF",
             "company" : "The Company of Watermen and Lightermen",
             "name" : "Watermen's Hall",
             "slug" : "watermen"
@@ -624,6 +665,7 @@
             "type" : "Point"
          },
          "properties" : {
+            "address" : "6 Gresham Street London EC2V 7AD",
             "company" : "The Wax Chandlers' Company",
             "name" : "Wax Chandlers' Hall",
             "slug" : "wax-chandlers"
