@@ -1,43 +1,43 @@
-slug,hall_name,company_name,longitude,latitude
-apothecaries,Apothecaries' Hall,The Society of Apothecaries,-0.1033,51.5129
-armourers,Armourers' Hall,The Armourers and Brasiers' Company,-0.0896,51.5172
-bakers,Bakers' Hall,The Bakers' Company,-0.0815,51.5095
-barber-surgeons,Barber-Surgeons' Hall,The Barbers' Company,-0.0953,51.5177
-brewers,Brewers' Hall,The Brewers' Company,-0.0927,51.5172
-butchers,Butchers' Hall,The Butchers' Company,-0.0992,51.5182
-carpenters,Carpenters' Hall,The Carpenters' Company,-0.0860,51.5168
-chartered-accountants,Chartered Accountants' Hall,The Institute of Chartered Accountants in England and Wales,-0.0885,51.5164
-clothworkers,Clothworkers' Hall,The Clothworkers' Company,-0.0810,51.5114
-coopers,Coopers' Hall,The Coopers' Company,-0.0792,51.5168
-cutlers,Cutlers' Hall,The Cutlers' Company,-0.1009,51.5155
-drapers,Drapers' Hall,The Drapers' Company,-0.0862,51.5163
-dyers,Dyers' Hall,The Dyers' Company,-0.0912,51.5110
-farmers-and-fletchers,Farmers & Fletchers' Hall,The Farmers' Company and The Fletchers' Company,-0.0980,51.5196
-fishmongers,Fishmongers' Hall,The Fishmongers' Company,-0.0877,51.5094
-founders,Founders' Hall,The Founders' Company,-0.0989,51.5193
-furniture-makers,Furniture Makers' Hall,The Furniture Makers' Company,-0.0857,51.5157
-girdlers,Girdlers' Hall,The Girdlers' Company,-0.0906,51.5170
-glaziers,Glaziers' Hall,The Glaziers' Company,-0.0888,51.5066
-goldsmiths,Goldsmiths' Hall,The Goldsmiths' Company,-0.0959,51.5156
-grocers,Grocers' Hall,The Grocers' Company,-0.0902,51.5142
-guildhall,Guildhall,City of London Corporation,-0.0920,51.5158
-gunmakers,Gunmakers' Hall,The Gunmakers' Company,-0.0681,51.5148
-haberdashers,Haberdashers' Hall,The Haberdashers' Company,-0.1020,51.5180
-hqs-wellington,HQS Wellington,The Honourable Company of Master Mariners,-0.1124,51.5106
-information-technologists,Information Technologists' Hall,The Information Technologists' Company,-0.0985,51.5191
-innholders,Innholders' Hall,The Innholders' Company,-0.0916,51.5109
-ironmongers,Ironmongers' Hall,The Ironmongers' Company,-0.0961,51.5182
-leathersellers,Leathersellers' Hall,The Leathersellers' Company,-0.0813,51.5145
-mercers,Mercers' Hall,The Mercers' Company,-0.0920,51.5139
-merchant-taylors,Merchant Taylors' Hall,The Merchant Taylors' Company,-0.0853,51.5141
-painter-stainers,Painters' Hall,The Painter-Stainers' Company,-0.0949,51.5119
-pewterers,Pewterers' Hall,The Pewterers' Company,-0.0952,51.5167
-plaisterers,Plaisterers' Hall,The Plaisterers' Company,-0.0958,51.5173
-saddlers,Saddlers' Hall,The Saddlers' Company,-0.0955,51.5149
-salters,Salters' Hall,The Salters' Company,-0.0920,51.5177
-skinners,Skinners' Hall,The Skinners' Company,-0.0911,51.5111
-stationers,Stationers' Hall,The Stationers' Company,-0.1014,51.5143
-tallow-chandlers,Tallow Chandlers' Hall,The Tallow Chandlers' Company,-0.0910,51.5113
-vintners,Vintners' Hall,The Vintners' Company,-0.0936,51.5108
-watermen,Watermen's Hall,The Company of Watermen and Lightermen,-0.0839,51.5095
-wax-chandlers,Wax Chandlers' Hall,The Wax Chandlers' Company,-0.0954,51.5158
+slug,hall_name,company_name,longitude,latitude,address
+apothecaries,Apothecaries' Hall,The Society of Apothecaries,-0.1033,51.5129,"Black Friars Lane, London EC4V 6ER"
+armourers,Armourers' Hall,The Armourers and Brasiers' Company,-0.0896,51.5172,"81 Coleman St, London EC2R 5BJ"
+bakers,Bakers' Hall,The Bakers' Company,-0.0815,51.5095,"7 Harp Ln, London EC3R 6DP"
+barber-surgeons,Barber-Surgeons' Hall,The Barbers' Company,-0.0953,51.5177,"Monkwell Square, Wood St, Barbican, London EC2Y 5BL"
+brewers,Brewers' Hall,The Brewers' Company,-0.0927,51.5172,"Aldermanbury Square, Barbican, London EC2V 7HR"
+butchers,Butchers' Hall,The Butchers' Company,-0.0992,51.5182,"87 Bartholomew Close, London EC1A 7EB"
+carpenters,Carpenters' Hall,The Carpenters' Company,-0.0860,51.5168,"1 Throgmorton Avenue, London EC2N 2JJ"
+chartered-accountants,Chartered Accountants' Hall,The Institute of Chartered Accountants in England and Wales,-0.0885,51.5164,"1 Moorgate Pl, London EC2R 6EA"
+clothworkers,Clothworkers' Hall,The Clothworkers' Company,-0.0810,51.5114,"Dunster Court, Mincing Lane, London EC3R 7AH"
+coopers,Coopers' Hall,The Coopers' Company,-0.0792,51.5168,"13 Devonshire Square, London EC2M 4TH"
+cutlers,Cutlers' Hall,The Cutlers' Company,-0.1009,51.5155,"4 Warwick Lane, London EC4M 7BR"
+drapers,Drapers' Hall,The Drapers' Company,-0.0862,51.5163,"Throgmorton Avenue, London EC2N 2DQ"
+dyers,Dyers' Hall,The Dyers' Company,-0.0912,51.5110,"10 Dowgate Hill, London EC4R 2ST"
+farmers-and-fletchers,Farmers & Fletchers' Hall,The Farmers' Company and The Fletchers' Company,-0.0980,51.5196,"3 Cloth St, London EC1A 7LD"
+fishmongers,Fishmongers' Hall,The Fishmongers' Company,-0.0877,51.5094,"110 London Bridge, London EC4R 3TJ"
+founders,Founders' Hall,The Founders' Company,-0.0989,51.5193,"1 Cloth Fair, London EC1A 7JQ"
+furniture-makers,Furniture Makers' Hall,The Furniture Makers' Company,-0.0857,51.5157,"12 Austin Friars, London EC2N 2HE"
+girdlers,Girdlers' Hall,The Girdlers' Company,-0.0906,51.5170,"Basinghall Ave, London EC2V 5DD"
+glaziers,Glaziers' Hall,The Glaziers' Company,-0.0888,51.5066,"9 Montague Cl, London SE1 9DD"
+goldsmiths,Goldsmiths' Hall,The Goldsmiths' Company,-0.0959,51.5156,"Foster Lane, London, EC2V 6BN"
+grocers,Grocers' Hall,The Grocers' Company,-0.0902,51.5142,"Princes Street, London EC2R 8AD"
+guildhall,Guildhall,City of London Corporation,-0.0920,51.5158,"Gresham Street, London EC2V 7HH"
+gunmakers,Gunmakers' Hall,The Gunmakers' Company,-0.0681,51.5148,"46–50 Commercial Road, London E1 1LP"
+haberdashers,Haberdashers' Hall,The Haberdashers' Company,-0.1020,51.5180,"18 West Smithfield, London EC1A 9HQ"
+hqs-wellington,HQS Wellington,The Honourable Company of Master Mariners,-0.1124,51.5106,"Temple Stairs, Victoria Embankment, London WC2R 2PN"
+information-technologists,Information Technologists' Hall,The Information Technologists' Company,-0.0985,51.5191,"39A Bartholomew Close, Barbican, London EC1A 7JN"
+innholders,Innholders' Hall,The Innholders' Company,-0.0916,51.5109,"30 College St, London EC4R 2RH"
+ironmongers,Ironmongers' Hall,The Ironmongers' Company,-0.0961,51.5182,"Shaftesbury Place, off Aldersgate Street, Barbican, London EC2Y 8AA"
+leathersellers,Leathersellers' Hall,The Leathersellers' Company,-0.0813,51.5145,"7 St Helen's Place, London, EC3A 6AB"
+mercers,Mercers' Hall,The Mercers' Company,-0.0920,51.5139,"Ironmonger Lane, London EC2V 8HE"
+merchant-taylors,Merchant Taylors' Hall,The Merchant Taylors' Company,-0.0853,51.5141,""
+painter-stainers,Painters' Hall,The Painter-Stainers' Company,-0.0949,51.5119,"9 Little Trinity Lane, London, EC4V 2AD"
+pewterers,Pewterers' Hall,The Pewterers' Company,-0.0952,51.5167,"Oat Lane, Barbican, London EC2V 7DE"
+plaisterers,Plaisterers' Hall,The Plaisterers' Company,-0.0958,51.5173,"One London Wall, London EC2Y 5JU"
+saddlers,Saddlers' Hall,The Saddlers' Company,-0.0955,51.5149,"40 Gutter Lane, London EC2V 6BR"
+salters,Salters' Hall,The Salters' Company,-0.0920,51.5177,"4 London Wall Place, London EC2Y 5DE"
+skinners,Skinners' Hall,The Skinners' Company,-0.0911,51.5111,"8½ Dowgate Hill, London EC4R 2SP"
+stationers,Stationers' Hall,The Stationers' Company,-0.1014,51.5143,"Ave Maria Lane, London EC4M 7DD"
+tallow-chandlers,Tallow Chandlers' Hall,The Tallow Chandlers' Company,-0.0910,51.5113,"4 Dowgate Hill, London EC4R 2SH"
+vintners,Vintners' Hall,The Vintners' Company,-0.0936,51.5108,"68 Upper Thames Street, London EC4V 3BG"
+watermen,Watermen's Hall,The Company of Watermen and Lightermen,-0.0839,51.5095,"16-18 St Mary at Hill, London EC3R 8EF"
+wax-chandlers,Wax Chandlers' Hall,The Wax Chandlers' Company,-0.0954,51.5158,"6 Gresham Street London EC2V 7AD"
