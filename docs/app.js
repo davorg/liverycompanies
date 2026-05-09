@@ -11,7 +11,7 @@ const cityCentre = [51.5155, -0.0922];
 const map = L.map("map", {
   maxBounds: [
     [51.50, -0.12],
-    [51.53, -0.07]
+    [51.53, -0.06]
   ],
   maxBoundsViscosity: 1.0
 }).setView(cityCentre, 15);
