@@ -42,6 +42,7 @@ $schema->txn_do(sub {
       slug         => $row->{slug},
       hall_name    => $row->{hall_name},
       company_name => $row->{company_name},
+      address      => $row->{address},
       longitude    => $row->{longitude},
       latitude     => $row->{latitude},
     });
