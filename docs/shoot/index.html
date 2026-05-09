@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Livery Hall Shoot List</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    header {
+      padding: .75rem 1rem;
+      background: #261f17;
+      color: #f4efe6;
+    }
+    h1 { margin: 0; font-size: 1.1rem; }
+    #status { margin-top: .25rem; font-size: .9rem; }
+    #map { height: calc(100vh - 70px); }
+    button {
+      margin-top: .4rem;
+      padding: .3rem .6rem;
+      border: 0;
+      border-radius: .3rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Livery Hall Shoot List</h1>
+    <div id="status">Loading…</div>
+    <button id="reset">Reset</button>
+    <button id="nearest">Nearest unshot hall</button>
+  </header>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const STORAGE_KEY = "livery-shoot-done";
+
+    let features = [];
+    let markersBySlug = new Map();
+    let userMarker = null;
+
+    const done = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
+    const status = document.querySelector("#status");
+
+    const map = L.map("map").setView([51.5155, -0.0922], 15);
+
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    function save() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...done]));
+    }
+
+    function markerStyle(slug) {
+      return {
+        radius: 9,
+        weight: 2,
+        color: done.has(slug) ? "#8b0000" : "#1f4f2f",
+        fillColor: done.has(slug) ? "#d22" : "#39a85a",
+        fillOpacity: 0.9
+      };
+    }
+
+    function updateStatus(total) {
+      status.textContent = `${done.size} of ${total} halls photographed`;
+    }
+
+    fetch("/halls.geojson")
+      .then(response => response.json())
+      .then(data => {
+        const total = data.features.length;
+
+        features = data.features;
+
+        const layer = L.geoJSON(data, {
+          pointToLayer(feature, latlng) {
+            const slug = feature.properties.slug;
+            const marker = L.circleMarker(latlng, markerStyle(slug));
+            markersBySlug.set(slug, marker);
+            return marker;
+          },
+
+          onEachFeature(feature, marker) {
+            const { slug, name, company } = feature.properties;
+
+            marker.bindPopup(`
+              <strong>${name}</strong><br>
+              ${company}<br>
+              ${done.has(slug) ? '✅ Done' : '📷 To do'}
+            `);
+
+            marker.on("click", () => {
+              if (done.has(slug)) {
+                done.delete(slug);
+              } else {
+                done.add(slug);
+              }
+
+              save();
+              marker.setStyle(markerStyle(slug));
+              updateStatus(total);
+            });
+          }
+        }).addTo(map);
+
+        map.fitBounds(layer.getBounds(), {
+          padding: [40, 40],
+          maxZoom: 15
+        });
+
+        updateStatus(total);
+      });
+
+    document.querySelector("#reset").addEventListener("click", () => {
+      if (!confirm("Reset the shoot list?")) return;
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    });
+
+    document.querySelector("#nearest").addEventListener("click", () => {
+      if (!navigator.geolocation) {
+        alert("Geolocation is not available in this browser.");
+        return;
+      }
+
+      navigator.geolocation.getCurrentPosition(
+        position => {
+          const userLatLng = L.latLng(
+            position.coords.latitude,
+            position.coords.longitude
+          );
+
+          if (userMarker) {
+            userMarker.setLatLng(userLatLng);
+          } else {
+            userMarker = L.circleMarker(userLatLng, {
+              radius: 8,
+              weight: 3,
+              color: "#0044cc",
+              fillColor: "#4da3ff",
+              fillOpacity: 0.9
+            }).addTo(map).bindPopup("You are here");
+          }
+
+          const unshot = features.filter(feature =>
+            !done.has(feature.properties.slug)
+          );
+
+          if (unshot.length === 0) {
+            alert("All halls photographed!");
+            return;
+          }
+
+          const nearest = unshot
+            .map(feature => {
+              const [longitude, latitude] = feature.geometry.coordinates;
+              const hallLatLng = L.latLng(latitude, longitude);
+
+              return {
+                feature,
+                distance: userLatLng.distanceTo(hallLatLng)
+              };
+            })
+            .sort((a, b) => a.distance - b.distance)[0];
+
+          const { slug, name } = nearest.feature.properties;
+          const marker = markersBySlug.get(slug);
+
+          map.setView(marker.getLatLng(), 17);
+          marker.openPopup();
+
+          status.textContent =
+            `Nearest unshot hall: ${name} (${Math.round(nearest.distance)}m away)`;
+        },
+        error => {
+          alert(`Could not get your location: ${error.message}`);
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 30000
+        }
+      );
+    });
+  </script>
+</body>
+</html>
