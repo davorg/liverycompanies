@@ -435,6 +435,22 @@
       {
          "geometry" : {
             "coordinates" : [
+               -0.0923,
+               51.5167
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "address" : "20-21 Aldermanbury, London EC2V 7HY",
+            "company" : "The Insurers' Company",
+            "name" : "Insurance Hall",
+            "slug" : "insurers"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
                -0.0961,
                51.5182
             ],
